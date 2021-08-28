@@ -1,6 +1,0 @@
-com\project\challenge\app\bcp\service\TipoCambioServiceImpl.class
-com\project\challenge\app\bcp\repository\TipoCambioRepository.class
-com\project\challenge\app\bcp\service\TipoCambioService.class
-com\project\challenge\app\bcp\entity\TipoCambio.class
-com\project\challenge\app\bcp\BcpBasicBackendChallengeApplication.class
-com\project\challenge\app\bcp\controller\TipoCambioController.class
