@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  app-backend:
+    build: .
+    ports:
+      - "9001:9001"
+    command: java -jar bcp-basic-backend-challenge.jar
