@@ -16,16 +16,22 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
-@Table(name = "tb_tipo_cambio")
+@Table(name = "tb_exchage")
 @Getter
 @Setter
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class TipoCambio {
+public class Exchange {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
+	
+	@Column(name = "monto")
+	private double monto;
+	
+	@Column(name = "nuevo_monto")
+	private double nuevoMonto;
 	
 	@Column(name = "moneda_origen")
 	private String monedaOrigen;
